@@ -31,6 +31,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 
 # test
+
+# where the output result are going to saved
+
 models:
 
   project_dbt:
