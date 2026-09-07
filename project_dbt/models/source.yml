@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+
+
+# dev
+
+  - name: dev
+    database: dev
+    schema: bronze
+    tables:
+      - name: employees_raw
+      - name: salary
+      - name: department

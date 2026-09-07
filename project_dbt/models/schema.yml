@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: employee_view
+    description: "Aggregated employee counts grouped by warehouse."
+    columns:
+      - name: employee_id
+        description: "Unique identifier for each employee."
+        tests:
+          - unique
+          - not_null
